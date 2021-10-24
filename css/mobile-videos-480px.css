@@ -1,0 +1,11 @@
+/* Smartphone */
+@media only screen and (max-width: 480px){
+	#call-to-action .player video{
+		width: 100%;
+	}
+	#noticias h2 {
+		margin-top: 30px;
+		font-size: 30px;
+	}
+
+}

@@ -1,0 +1,27 @@
+#games,
+.mb-3 img{
+	width: 100%;
+}
+.mb-3 img{
+	margin-top: -18px;
+	height: 350px;
+}
+.jumbotron-fluid{
+	background-color:#CEF6F5;
+}
+.jumbotron-fluid2{
+	background-color:#CED8F6;
+}
+.jumbotron-fluid3{
+	background-color:#F5BCA9;
+}
+.jumbotron-fluid4{
+	background-color:#F2F5A9;
+}
+.card-deck{
+	display: flex;
+	text-align: center;
+}
+section{
+	margin-top: -30px;
+}

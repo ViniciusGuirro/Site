@@ -1,0 +1,267 @@
+/* Smartphone */
+@media only screen and (max-width: 480px){
+	header{
+		height: 100px;
+	}
+	header #logotipo{
+		top: 0px;
+		z-index: 9;
+		transition: 1s;
+		height: 96px;
+	}
+	header .header-black{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 40px;
+		z-index: 8;
+	}
+	header #menu-mobile{
+		position: fixed;
+		top: 40px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		left: -80%;
+		transition: 1s;
+		z-index: 5;
+	}
+	header.menu-aberto #menu-mobile{
+		left: 0;
+	}
+	header.menu-aberto #menu-mobile ul{
+		margin: 20px;
+		margin-top: 100px;
+	}
+	header.menu-aberto #menu-mobile-mask{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0,0,0,.5);
+		z-index: 4;
+	}
+	header.menu-aberto #logotipo{
+		position: fixed;
+		top: 50px;
+		height: 76px;
+		left: calc(40% - 33px);
+	}
+	header.menu-aberto #menu-mobile li{
+		text-align: center;
+		border-top: #fbb03b 1px solid;
+	}
+	header.menu-aberto #menu-mobile li a{
+		color: #000;
+		font-family: 'Homenaje-Regular';
+		font-weight: bold;
+		font-size: 20px;
+		padding: 18px;
+		display: block;
+	}
+	header.menu-aberto #menu-mobile li:last-child{
+		border-bottom: #fbb03b 1px solid;
+	}
+	header.menu-aberto .bar-close{
+		position: absolute;
+		bottom: 40px;
+		background-color: #fbb03b;
+		height: 40px;
+		width: 100%;
+	}
+	header.menu-aberto .bar-close .btn-close{
+		background: none;
+		border: none;
+		color: #000;
+		font-size: 22px;
+		transition: 1s;
+	}
+	header.open-search #input-search-mobile{
+		top: 8px;
+		height: 25px;
+		font-size: 22px;
+	}
+	header.open-search #logotipo{
+		z-index: 9;
+		margin-left: 30%;
+		height: 96px;
+	}
+	header #input-search-mobile{
+		position: fixed;
+		transition: 1s;
+		top: -40px;
+		width: 55%;
+		left: 10%;
+		background-color: #212121;
+		border:none;
+		height: 40px;
+		color: #fbb03b;
+		outline: 0;
+	}
+	.header-black img, p, #menu{
+		display: none;
+	}
+	#logotipo{
+		left: 37%;
+	}
+	#carousel .carousel-indicators{
+		z-index: 2;
+	}
+	#btn-bars, #btn-search{
+		color: #fff;
+		font-size: 22px;
+		position: absolute;
+		top: 5px;
+		background: none;
+		border: none;
+		display: block;
+	} 
+	#btn-bars{
+		left:4px;
+	}
+	#btn-search{
+		right:1px;
+	}
+	#carousel{
+		height: 180px;
+	}
+	#carousel img{
+		height: 180px;
+	}
+	#carousel h3{
+		font-size: 13px;
+		padding: 100px;
+	}
+	#carousel p{
+		display: none;
+	}
+	.carousel-indicators{
+		bottom: 0px;
+		z-index: 5;
+	}
+	#label p{
+		display: block;
+	}
+	#label h2{
+		color: #000;
+		font-family: 'Homenaje-Regular';
+		font-size: 30px;
+		margin-top: 40px;
+	}
+	#label h3{
+		color: #000;
+		font-family: 'Homenaje-Regular';
+		font-size: 25px;
+	}
+	#label .col-md-6{
+		top: 35px;
+	}
+	#noticias h2{
+		margin-top: 70px;
+		font-size: 30px;
+	}
+	#call-to-action h2{
+		margin-top: 35px;
+		font-size: 30px;
+	}
+	#noticias .thumbnails .item-inner img{
+		display: block;
+		width: 70%;
+		margin-left: 47px;
+	}
+	.thumbnails{
+		text-align: center;
+	}
+	#btn-noticias-prev{
+		background: none;
+		border: none;
+		color: #000;
+		font-size: 48px;
+		display: block;
+		position: absolute;
+		margin-top: 130px;
+		margin-left: 15px;
+		z-index: 4;
+		outline: none;
+	}
+	#btn-noticias-next{
+		background: none;
+		border: none;
+		color: #000;
+		font-size: 48px;
+		display: block;
+		position: absolute;
+		margin-top: 130px;
+		margin-right: 15px;
+		z-index: 4;
+		outline: none;
+		right: 10px;
+		margin-right: 18px;
+	}
+	.efeito{
+		width: 115px;
+	}
+	#call-to-action p{
+		display: block;
+		margin-top: 0px;
+	}
+	#redes-sociais li{
+		display: inline-block;
+	}
+	.row-preto p{
+		display: block;
+	}
+	.direitos-mobile{
+		font-size: 10px;
+		line-height: 0;
+	}
+	footer .row p{
+		line-height: 15px;
+		text-align: left;
+		text-align: center;
+	}
+	footer .row p:first-child{
+		margin-top: 13px;
+		font-size: 13px;
+		margin-left: 10px;
+	}
+	footer .row p:nth-child(2){
+		margin-top: 13px;
+		font-size: 15px;
+		margin-right: 10px;
+	}
+	footer .col-redes-sociais a{
+		font-size: 40px;
+		padding: 20px;
+		margin-left: 5px;
+	}
+	footer .col-redes-sociais ul{
+		display: inline-flex;
+	}
+	footer .col-redes-sociais{
+		margin-top: 65px;
+		margin-left: 10%;
+	}
+	footer .row-cinza{
+		height: 140px;
+	}
+	footer .btn-footer{
+		width: 100%;
+		background-color: #000;
+		color: #fff;
+		height: 40px;
+		line-height: 30px;
+		font-size: 17px;
+		margin-top: 18px;
+		display: block;
+	}
+	footer .btn-home,
+	footer .btn-contato {
+		float: left;
+		margin-top: 17px;
+	}
+	footer .btn-contato{
+		margin-left: -10%;
+	}
+}
